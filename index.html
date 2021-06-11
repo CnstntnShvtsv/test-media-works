@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Тест</title>
+
+    <!-- Preloading Fonts -->
+    <link rel="preload" href="assets/fonts/fonts.css" as="style">
+    <!-- Preloading Styles -->
+    <link rel="preload" href="assets/styles/main.css" as="style">
+    <!-- Preloading Scripts -->
+    <link rel="preload" href="assets/scripts/jquery-3.6.0.min.js" as="script">
+    <link rel="preload" href="assets/scripts/main.js" as="script">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/styles/main.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <a class="header__logo" href="#">
+                    <img src="assets/images/logo.svg" alt="logo" loading="lazy">
+                </a>
+
+                <ol class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Клиентам</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link nav__link--login" role="button">Войти</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Inner -->
+    <section class="inner">
+        <div class="container">
+            <div class="inner__item">
+                <img class="inner__image" src="assets/images/main-01.svg" alt="businesman">
+                <div class="inner__info">
+                    <h1>Подбор авто в лизинг по выгодной цене</h1>
+                    <div class="subtitle">IT платформа по быстрому поиску автомобиля от официальных дилеров РФ</div>
+                    <a href="#" class="button button--registration" role="button">Регистрация</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages -->
+    <section class="advantages">
+        <div class="container">
+            <h2>Меньше условий – больше возможностей</h2>
+            <div class="advantages__wrapper">
+                <div class="advantages__item">
+                    <img class="advantages__image" src="assets/images/advantages-01.svg" alt="time">
+                    <div class="advantages__info">
+                        <h4>Экономия времени</h4>
+                        <p>Дополнительный канал потенциальных клиентов, готовых приобрести автомобиль, без затрат на
+                            рекламу и маркетинг.</p>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <img class="advantages__image" src="assets/images/advantages-02.svg" alt="time">
+                    <div class="advantages__info">
+                        <h4>Никаких задержек</h4>
+                        <p>Вы получаете запросы сразу же после отправки клиентом.</p>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <img class="advantages__image" src="assets/images/advantages-03.svg" alt="time">
+                    <div class="advantages__info">
+                        <h4>Максимальная информативность</h4>
+                        <p>В каждой заявке указан регион поиска, марка и модель авто, а так же индивидуальные запросы
+                            клиента.</p>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <img class="advantages__image" src="assets/images/advantages-04.svg" alt="time">
+                    <div class="advantages__info">
+                        <h4>Удобство общения</h4>
+                        <p>Для каждого запроса у вас открыт чат с клиентом с возможностью отправки документов.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration -->
+    <section class="registration">
+        <div class="container">
+            <div class="registration__item">
+                <img class="registration__image" src="assets/images/registration-sm-01-min.png" alt="cars">
+                <div class="registration__info">
+                    <h3>Регистрируйся и получай актуальные запросы на автомобили от заинтерисованных клиентов</h3>
+                    <a href="#" class="button button--registration" role="button">Регистрация</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="overlay">
+        <div class="modal">
+            <div class="modal__item">
+                <h2>Авторизация</h2>
+                <form class="modal__form" action="">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Введите e-mail" required>
+                    <label for="login">Пароль</label>
+                    <input type="text" name="login" id="login" placeholder="Введите пароль" required>
+                    <input type="submit" value="Войти" class="button button--enter">
+                </form>
+                <a class="close-button" role="button">
+                    <img src="assets/images/icon_close.svg" alt="close button">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/scripts/jquery-3.6.0.min.js"></script>
+    <script src="assets/scripts/main.js"></script>
+</body>
+
+</html>
